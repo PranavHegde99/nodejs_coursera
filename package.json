@@ -1,0 +1,28 @@
+{
+  "name": "pranavhegde",
+  "version": "1.0.0",
+  "description": "this ia an app based on React component",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+     "start": "npm run lite",
+    "test": "command",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panu99/my-burger.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "pranav hegde",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Panu99/my-burger/issues"
+  },
+  "homepage": "https://github.com/Panu99/my-burger#readme"
+}
