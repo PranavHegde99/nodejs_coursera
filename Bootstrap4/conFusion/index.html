@@ -39,8 +39,15 @@
             </div>
         </div>
 
-
+<div>
+    <input type="button" value="pranav" onclick="click()" />
+    <p id="demo"></p>
+    <a href="css/first.html">pranav</a>
+    <button onclick="window.print()">Print this page</button>
+</div>
+</div>
         <div>
+        
             <div class="row row-content">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -108,7 +115,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script>
+        function click(){
+            document.getElementById("demo").innerHTML = 5 + 6;
+        }
+    </script>
 
 </body>
 
